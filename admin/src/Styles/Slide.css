@@ -1,0 +1,29 @@
+.item {
+    height: 170px;
+    margin-top: 40px;
+}
+.item .items{
+    height: 100%;
+}
+span{
+    height: 100%;
+}
+span h5{
+    transform: translateX(25%);
+    text-transform: capitalize;
+    font-weight: 600;
+}
+span img{
+    height:170px;
+    margin-left: 20px;
+}
+.div-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.div-item1{
+    display: grid;
+    margin-top: 3%;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
